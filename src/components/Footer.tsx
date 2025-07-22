@@ -22,15 +22,24 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li>Automação de Processos</li>
               <li>Integração de Sistemas</li>
-              <li>Marketing Automation</li>
-              <li>Desenvolvimento Custom</li>
+              <li>Automação de Marketing</li>
+              <li>Desenvolvimento Customizado</li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4 text-foreground">Contato</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li>timeis.pt@gmail.com</li>
+              <li>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&to=timeis.pt@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  timeis.pt@gmail.com
+                </a>
+              </li>
               <li>+351 933 766 354</li>
               <li>Porto, Portugal</li>
             </ul>
