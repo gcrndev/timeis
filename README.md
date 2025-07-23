@@ -67,8 +67,6 @@ Use Meta Debugger to preview how your site appears on social media.
 
 🧭 Project Structure
 ```css
-Copiar
-Editar
 src/
 ├── components/
 ├── pages/
