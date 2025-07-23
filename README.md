@@ -24,37 +24,36 @@ This platform showcases our services, values, and the digital tools we build for
 ```bash
 git clone https://github.com/your-username/timeis.git
 cd timeis
-npm install```
+npm install
+```
 
 ### Development server
-bash
-Copiar
-Editar
+```bash
 npm run dev
-🔧 Build & Deploy
-Build for production
-bash
-Copiar
-Editar
+```
+### 🔧 Build & Deploy
+## Build for production
+```bash
 npm run build
-Deploy to GitHub Pages
+```
+
+## Deploy to GitHub Pages
 The base is configured as /timeis/ in vite.config.ts.
 
 To deploy manually or using GitHub Actions:
 
 Commit your latest changes:
 
-bash
-Copiar
-Editar
+```bash
 git add .
 git commit -m "Build for deploy"
+```
 Run the build:
 
-bash
-Copiar
-Editar
+```bash
 npm run build
+```
+
 Deploy the dist/ folder to the gh-pages branch or via GitHub Pages.
 
 🌐 SEO & Open Graph
@@ -67,7 +66,7 @@ Recommended size: 1200 x 630 px
 Use Meta Debugger to preview how your site appears on social media.
 
 🧭 Project Structure
-css
+```css
 Copiar
 Editar
 src/
@@ -75,6 +74,8 @@ src/
 ├── pages/
 ├── assets/
 └── main.tsx
-📩 About Us
+```
+
+### 📩 About Us
 We help companies automate processes, reduce manual work, and scale with efficiency.
-For more information, visit: https://timeis.lovable.app
+For more information, visit: https://gcrn-06.github.io/timeis/
