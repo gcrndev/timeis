@@ -38,9 +38,15 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="px-8 py-4">
-              Quero ganhar tempo
-            </Button>
+            <a
+              href="https://wa.me/351933766354"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="hero" size="lg" className="px-8 py-4">
+                Quero ganhar tempo
+              </Button>
+            </a>
             <Button variant="outline" size="lg" className="px-8 py-4">
               Ver como funciona
             </Button>

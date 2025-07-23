@@ -20,22 +20,21 @@ const CTASection = () => {
               Agende uma consultoria gratuita e veja sua operação transformada.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="bg-white text-primary hover:bg-white/90 border-white px-8 py-4 font-semibold"
+            <div className="flex justify-center mb-8">
+              <a
+                href="https://wa.me/351933766354"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Agendar consultoria gratuita
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="lg"
-                className="text-white hover:bg-white hover:text-primary px-8 py-4"
-              >
-                Falar no WhatsApp
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="bg-white text-primary hover:bg-white/90 border-white px-8 py-4 font-semibold"
+                >
+                  Agendar consultoria gratuita
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </a>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-sm opacity-80">
