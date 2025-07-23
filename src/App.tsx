@@ -24,4 +24,11 @@ const App = () => (
   </QueryClientProvider>
 );
 
+<BrowserRouter basename="/timeis">
+  <Routes>
+    <Route path="/" element={<Index />} />
+    <Route path="*" element={<NotFound />} />
+  </Routes>
+</BrowserRouter>;
+
 export default App;
