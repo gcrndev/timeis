@@ -14,9 +14,9 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-4 md:px-6 py-3 md:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <a href="/">
+            <a href="/timeis">
               <img
-                src={`${import.meta.env.BASE_URL}lovable-uploads/logo.png`}
+                src={`${import.meta.env.BASE_URL}uploads/logo.png`}
                 alt="TimeIs Logo"
                 className="h-16 w-auto"
               />

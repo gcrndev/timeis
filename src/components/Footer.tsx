@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="/lovable-uploads/logo.png"
+                src="/uploads/logo.png"
                 alt="TimeIs Logo"
                 className="h-16 w-auto"
               />
