@@ -1,25 +1,27 @@
-# 🕒 Timeis
+# 🕒 Timeis — Automation Agency Website
 
-**Timeis** é uma aplicação web desenvolvida com React, Vite, TailwindCSS e ShadCN UI. O objetivo é fornecer uma interface moderna, responsiva e escalável para uso corporativo.
+**Timeis** is the official website of our automation agency. Built with modern technologies like React, Vite, Tailwind CSS, and ShadCN UI, it reflects our commitment to design, performance, and user experience.
 
----
-
-## 🚀 Tecnologias
-
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [ShadCN UI](https://ui.shadcn.dev/)
-- [React Router DOM](https://reactrouter.com/)
-- [TanStack Query](https://tanstack.com/query)
+This platform showcases our services, values, and the digital tools we build for businesses looking to automate and scale operations.
 
 ---
 
-## 📦 Instalação local
+## ⚙️ Tech Stack
 
-1. **Clone o repositório:**
+- **React** – Fast and modular UI components  
+- **Vite** – Lightning-fast build tool  
+- **Tailwind CSS** – Utility-first responsive design  
+- **ShadCN UI** – Accessible and beautiful UI components  
+- **React Router DOM** – Client-side routing  
+- **TanStack Query** – Data fetching and state management  
 
-   ```bash
-   git clone https://github.com/seu-usuario/timeis.git
-   cd timeis
+---
 
+## 🛠️ Getting Started
+
+### Clone & Install
+
+```bash
+git clone https://github.com/your-username/timeis.git
+cd timeis
+npm install
