@@ -47,9 +47,11 @@ const HeroSection = () => {
                 Quero ganhar tempo
               </Button>
             </a>
+            {/*
             <Button variant="outline" size="lg" className="px-8 py-4">
               Ver como funciona
             </Button>
+            */}
           </div>
 
           <div className="mt-12 text-text-muted">
