@@ -24,9 +24,9 @@ This platform showcases our services, values, and the digital tools we build for
 ```bash
 git clone https://github.com/your-username/timeis.git
 cd timeis
-npm install
+npm install```
 
-Development server
+### Development server
 bash
 Copiar
 Editar
