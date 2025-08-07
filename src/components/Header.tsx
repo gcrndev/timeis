@@ -18,7 +18,7 @@ const Header = () => {
               <img
                 src={`${
                   import.meta.env.BASE_URL
-                }uploads/logotimeis-png570x320.png`}
+                }uploads/logoteste.png`}
                 alt="TimeIs Logo"
                 className="h-16 w-auto"
               />
