@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/teste1.jpg";
 
 const HeroSection = () => {
   const [animate, setAnimate] = useState(true);
@@ -15,7 +14,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <img
-          src={heroImage}
+          src={`${import.meta.env.BASE_URL}uploads/heroimage.jpg`}
           alt="Automation background"
           className={`w-full h-full object-cover${
             animate ? " animate-kenburns" : ""
