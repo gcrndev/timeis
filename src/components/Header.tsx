@@ -16,7 +16,9 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <a href="/timeis/">
               <img
-                src={`${import.meta.env.BASE_URL}uploads/logo.png`}
+                src={`${
+                  import.meta.env.BASE_URL
+                }uploads/logotimeis-png570x320.png`}
                 alt="TimeIs Logo"
                 className="h-16 w-auto"
               />
